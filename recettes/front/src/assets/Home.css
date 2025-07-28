@@ -1,0 +1,15 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .recipe {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
